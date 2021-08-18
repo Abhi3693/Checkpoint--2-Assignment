@@ -1,0 +1,383 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open sans";
+    line-height: 1.5;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    left: 350px;
+    top: 100px;
+    width: 1000px;
+    
+}
+.top-bar {
+    position: absolute;
+    left: calc(50% - 120px);
+    top: 30px;
+}
+
+.menu-items a {
+    padding: 20px;
+}
+.logo img {
+    width: 70px;
+}
+.logo {
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* banner section */
+
+
+.digital-marketing {
+    position: absolute;
+    left: calc(50% - 150px);
+    top: 300px;
+    text-align: center;
+}
+.digi {
+    color: white;
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.upper-btn {
+    width: 10%;
+    background-color: rgb(234,81,62);
+    color: white;
+    padding:10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+.fab  {
+    color: black;
+    margin-top: 15px;
+}
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.icon {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.center {
+    align-items: center;
+}
+span {
+    font-size: 30px;
+    color: rgb(234,82,61);
+    margin-left: 30px;
+}
+.flex a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active {
+   color: rgb(234,82,61);
+   border-top: 2px solid rgb(234,82,61);
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+.image-bottom {
+    width: 10px;
+    height: 10px;
+    border-radius: 30%;
+    margin-left: 5px;
+    display: inline-block;
+}
+.one {
+    background-color:black;
+}
+.two {
+    background-color: gray;
+}
+.inline-block {
+    text-align: center;
+}
+
+/* service section */
+
+.service-section {
+    margin-top: 100px;
+}
+.service-section {
+    margin-top: 100px;
+}
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.sub-heading {
+    margin-bottom: 70px;
+}
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.our {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.service-section .icon {
+    color: white;
+    font-size: 44px;
+}
+.service-section .service {
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-one {
+    background-color: rgb(92,189,157);
+}
+.service-two {
+    background-color: rgb(230,127,49);
+}
+.service-three {
+    background-color: rgb(150, 209, 252);
+}
+.service-four {
+    background-color:  rgb(104,205,115);
+}
+/* portfolio section */
+
+.portfolio-section {
+    margin-top: 100px;
+}
+.portfolio {
+    width: 23%;
+}
+.portfolio img {
+    width: 100%;
+}
+
+/* team section */
+
+.team-section {
+    margin-top: 100px;
+}
+.member {
+    width: 20%;
+}
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}
+.contact {
+    display: flex;
+}
+.contact-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-text {
+    width: 60%;
+}
+.contact-form {
+    width: 30%;
+}
+address {
+    margin-top: 20px;
+}
+.form {
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+.message {
+    padding-bottom: 70px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+}
+.footer-button {
+    width: 10%;
+    background-color: rgb(234,81,62);
+    color: white;
+    padding:10px;
+}
+
+
+/* Button */
+
+.btn-red {
+    background-color: rgb(234,81,62);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.w-full {
+    width: 100%;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+/* Gallery */
+
+.side {
+    height: 100vh;
+    width: 25%;
+    background-color: rgb(234,81,62);
+    border: 1px solid black;
+    position: fixed;
+    padding: 20px;
+}
+.gallery {
+    width: 73%;
+    margin-left: 450px;
+}
+.gallery h2 {
+    margin-top: 50px;
+    text-decoration: none;
+    margin-bottom: 50px ;
+}
+.column {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.col {
+    width: 48%;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+.image-container img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.side .icon-container {
+    background-color: rgb(234,81,62);
+    border: 1px solid white;
+    color: white;
+}
+.icon-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.align {
+    align-items: center; 
+}
+.flex-style {
+    color: white;
+    font-size: 30px;
+}
+.side .btn-red {
+    border: 2px solid white;
+    margin-left: 70px;
+}
+.side h2 {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.side-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-red a {
+    color: white;
+}
+.side-icons {
+    margin-top: 350px;
+}
